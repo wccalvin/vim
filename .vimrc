@@ -57,8 +57,3 @@ set paste					" Paste from a windows or from vim
 
 " Enable line numbering for python and perl
 autocmd FileType python set number
-
-" Fast saving and quitting
-"nmap w :wq!
-"nmap W :w
-"nmap q :q!
