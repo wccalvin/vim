@@ -1,0 +1,21 @@
+Moving the Cursor:
+-----------------
+h -> moves left
+l -> moves right
+j -> moves down
+k -> moves up
+
+Exiting VIM:
+-----------
+<ESC> key (to make sure you are in Normal mode>
+:q! -> exits the vim editor, DISCARDING any changes.
+
+Text Editing in Normal Mode:
+---------------------------
+x -> delete the character under the cursor.
+i -> insert text under the cursor.
+A -> append text to the current line where the cursor is present.
+
+Exiting VIM:
+-----------
+
