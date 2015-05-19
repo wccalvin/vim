@@ -13,8 +13,8 @@ b 		-> move cursor a word backward
 e 		-> move cursor to end of the word
 0 		-> moves cursor to start of the line
 $ 		-> moves cursor to end of the line
-CTRL-f 	-> Go forward one page
-CTRL-b 	-> Go backward one page
+CTRL-f	-> Go forward one page
+CTRL-b	-> Go backward one page
 
 
 Exiting VIM:
