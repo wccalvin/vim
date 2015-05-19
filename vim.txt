@@ -4,17 +4,17 @@ VIM Basics and Commands
 
 Moving the Cursor:
 -----------------
-h 		-> moves left
-l 		-> moves right
-j 		-> moves down
-k 		-> moves up
-w 		-> move cursor a word forward
-b 		-> move cursor a word backward
-e 		-> move cursor to end of the word
-0 		-> moves cursor to start of the line
-$ 		-> moves cursor to end of the line
-CTRL-f	-> Go forward one page
-CTRL-b	-> Go backward one page
+h      -> moves left
+l      -> moves right
+j      -> moves down
+k      -> moves up
+w      -> move cursor a word forward
+b      -> move cursor a word backward
+e      -> move cursor to end of the word
+0      -> moves cursor to start of the line
+$      -> moves cursor to end of the line
+CTRL-f -> Go forward one page
+CTRL-b -> Go backward one page
 
 
 Exiting VIM:
