@@ -4,14 +4,17 @@ VIM Basics and Commands
 
 Moving the Cursor:
 -----------------
-h -> moves left
-l -> moves right
-j -> moves down
-k -> moves up
-w -> move cursor a word forward
-e -> move cursor to end of the word
-0 -> moves cursor to start of the line
-$ -> moves cursor to end of the line
+h 		-> moves left
+l 		-> moves right
+j 		-> moves down
+k 		-> moves up
+w 		-> move cursor a word forward
+b 		-> move cursor a word backward
+e 		-> move cursor to end of the word
+0 		-> moves cursor to start of the line
+$ 		-> moves cursor to end of the line
+CTRL-f 	-> Go forward one page
+CTRL-b 	-> Go backward one page
 
 
 Exiting VIM:
@@ -24,14 +27,17 @@ Exiting VIM:
 Text Editing in Normal Mode:
 ---------------------------
 x -> delete the character under the cursor.
-i -> insert text under the cursor.
+i -> insert text under the cursor (before the cursor).
+a -> append text after the current cursor position.
 A -> append text to the current line where the cursor is present.
-
+o -> Open a new line under the current line to add text.
+O -> Open a new line before the current line to insert text.
 
 Deletion Commands:
 -----------------
 dw -> to delete until the start of the next word. It also strips of spaces next to the word. (make sure you are in normal mode; Press <ESC> to be sure.)
 d$ -> to delete to the end of file (make sure you are in normal mode; Press <ESC> to be sure.)
+d^ -> to delete to the begining of file
 de -> to delete to the end of the current word.
 dd -> to delete a whole line.
 
