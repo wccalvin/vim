@@ -11,6 +11,7 @@ k      -> moves up
 w      -> move cursor a word forward
 b      -> move cursor a word backward
 e      -> move cursor to end of the word
+ge     -> move back cursor to end of the word
 0      -> moves cursor to start of the line
 $      -> moves cursor to end of the line
 CTRL-f -> Go forward one page
@@ -22,6 +23,9 @@ Exiting VIM:
 <ESC> key (to make sure you are in Normal mode>
 :q! -> exits the vim editor, DISCARDING any changes.
 :wq -> exits the vim editor, SAVING any changes.
+ZZ  -> Same as :q!
+ZQ  -> Same as :wq
+
 
 
 Text Editing in Normal Mode:
@@ -30,6 +34,7 @@ x -> delete the character under the cursor.
 i -> insert text under the cursor (before the cursor).
 a -> append text after the current cursor position.
 A -> append text to the current line where the cursor is present.
+I -> insert text to the begining of the current line where the cursor is present.
 o -> Open a new line under the current line to add text.
 O -> Open a new line before the current line to insert text.
 
