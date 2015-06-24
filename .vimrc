@@ -42,6 +42,7 @@ set smarttab " be smart when using tabs
 " 1 tab == 4 spaces
 set shiftwidth=4
 set tabstop=4
+set expandtab
 set laststatus=2 " always show the status line
 
 set showmatch "Show matching brackets when text indicator is over them
