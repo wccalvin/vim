@@ -16,7 +16,9 @@ ge     -> move back cursor to end of the word
 $      -> moves cursor to end of the line
 CTRL-f -> Go forward one page
 CTRL-b -> Go backward one page
-
+gf     -> Go to the file location given in the line.
+          For example if ~/scripts/file.pl is in the line; gf on word will open
+	  that file for you.
 
 Exiting VIM:
 -----------
@@ -40,7 +42,8 @@ O -> Open a new line before the current line to insert text.
 
 Deletion Commands:
 -----------------
-dw -> to delete until the start of the next word. It also strips of spaces next to the word. (make sure you are in normal mode; Press <ESC> to be sure.)
+dw -> to delete until the start of the next word. It also strips of spaces next to
+      the word. (make sure you are in normal mode; Press <ESC> to be sure.)
 d$ -> to delete to the end of file (make sure you are in normal mode; Press <ESC> to be sure.)
 d^ -> to delete to the begining of file
 de -> to delete to the end of the current word.
