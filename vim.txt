@@ -2,7 +2,6 @@
 VIM Basics and Commands
 =======================
 
-
 VIM Modes:
 ----------
 Vim has four modes,
@@ -45,11 +44,11 @@ CTRL-f -> Go forward one page
 CTRL-b -> Go backward one page
 gf     -> Go to the file location given in the line.
           For example if ~/scripts/file.pl is in the line; gf on word will open
-	  that file for you.
+	      that file for you.
 
 
 Exiting VIM:
------------
+------------
 <ESC> key (to make sure you are in Normal mode>
 :q! -> exits the vim editor, DISCARDING any changes.
 :wq -> exits the vim editor, SAVING any changes.
@@ -58,7 +57,7 @@ ZQ  -> Same as :wq
 
 
 Text Editing in Normal Mode:
----------------------------
+----------------------------
 x -> delete the character under the cursor.
 i -> insert text under the cursor (before the cursor).
 a -> append text after the current cursor position.
@@ -69,18 +68,22 @@ O -> Open a new line before the current line to insert text.
 
 
 Deletion Commands:
------------------
+------------------
 dw -> to delete until the start of the next word. It also strips of spaces next to
       the word. (make sure you are in normal mode; Press <ESC> to be sure.)
 d$ -> to delete to the end of file (make sure you are in normal mode; Press <ESC> to be sure.)
 d^ -> to delete to the begining of file
 de -> to delete to the end of the current word.
-dd -> to delete a whole line.
+
+
+Line Operations:
+----------------
+dd  -> to delete a whole line.
+2dd -> to delete 2 consequetive lines.
 
 
 Count for motion:
-----------------
-
+-----------------
 1) Typing a number before a motion repeats it that many times.
    Syntax: <NUMBER> <MOTION>
    Ex: 2w -> moves the cursor two words forward.
@@ -91,15 +94,40 @@ Count for motion:
 
 
 The UNDO command:
-----------------
+-----------------
 u 		-> to undo the last commands.
 U 		-> to fix the whole line.
 CTRL-R 	-> redo the comands.
 
 
+The PUT command:
+----------------
+p -> to put the previously deleted command after the cursor
+
+
+The Replace command:
+--------------------
+r -> replace a character on the cursor.
+     Ex: To change from late to tape
+         1) Move the cursor so it is on top of l and type r followed by t
+         2) Move the cursor so it is on top of t and type r followed by p
+
+
+The Change command:
+-------------------
+ce -> to change until the end of the word.
+      Ex: To change from lawre to lane
+          1) Move the cursor so it is on top of w
+          2) type ce to delete the remaining word starting from w (wre)
+          3) then type ne to complete the word (lane)
+
+The change operator is used with same motions as delete.
+c$ -> changes until end of line.
+c2w ->changes two words. 
+
+
 Visual block mode commands:
 ---------------------------
-
 c -> change selection
 I -> insert in front of cursor
 A -> append after cursor
