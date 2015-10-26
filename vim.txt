@@ -67,7 +67,7 @@ o -> Open a new line under the current line to add text.
 O -> Open a new line before the current line to insert text.
 
 
-Deletion Commands:
+DELETION Commands:
 ------------------
 dw -> to delete until the start of the next word. It also strips of spaces next to
       the word. (make sure you are in normal mode; Press <ESC> to be sure.)
@@ -105,7 +105,7 @@ The PUT command:
 p -> to put the previously deleted command after the cursor
 
 
-The Replace command:
+The REPLACE command:
 --------------------
 r -> replace a character on the cursor.
      Ex: To change from late to tape
@@ -113,7 +113,7 @@ r -> replace a character on the cursor.
          2) Move the cursor so it is on top of t and type r followed by p
 
 
-The Change command:
+The CHANGE command:
 -------------------
 ce -> to change until the end of the word.
       Ex: To change from lawre to lane
@@ -124,6 +124,32 @@ ce -> to change until the end of the word.
 The change operator is used with same motions as delete.
 c$ -> changes until end of line.
 c2w ->changes two words. 
+
+
+Cursor location and file status:
+--------------------------------
+CTRL-g -> A message will appear at the bottom of the page with the file name
+          and position of the file.
+G      -> to move to the bottom of the file.
+gg     -> to move to the start of the file.
+
+
+The SEARCH command:
+-------------------
+In normal mode, 
+1) type the / character and search phrase for searching in forward direction.
+2) type the ? character and search phrase for searching in backward direction.
+3) to search the same phrase again, simple type:
+   n -> for searching again.
+   N -> for searching in opposite direction.
+
+
+MATCHING PARENTHESES SEARCH:
+----------------------------
+Type % to find a matching ), ], or }
+1) This is very useful for debugging a program with unmatched parentheses.
+2) Place the cursor on any (, [ or { and type % character.
+3) type % again to move to the other matching bracket.
 
 
 Visual block mode commands:
