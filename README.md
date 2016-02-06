@@ -112,22 +112,20 @@ Command mode can perform complex editing functions, file actions, shell actions.
 > - *c2w ->changes two words.*
 
 
-Cursor location and file status:
---------------------------------
-CTRL-g -> A message will appear at the bottom of the page with the file name
+### Cursor location and file status:
+* CTRL-g -> A message will appear at the bottom of the page with the file name
           and position of the file.
-G      -> to move to the bottom of the file.
-gg     -> to move to the start of the file.
+* G      -> to move to the bottom of the file.
+* gg     -> to move to the start of the file.
 
 
-The SEARCH command:
--------------------
-In normal mode, 
-1) type the / character and search phrase for searching in forward direction.
-2) type the ? character and search phrase for searching in backward direction.
-3) to search the same phrase again, simple type:
-   n -> for searching again.
-   N -> for searching in opposite direction.
+### The SEARCH command:
+>In normal mode, 
+>- type the / character and search phrase for searching in forward direction.
+>- type the ? character and search phrase for searching in backward direction.
+>- to search the same phrase again, simple type:
+>> - n -> for searching again.
+>> - N -> for searching in opposite direction.
 
 
 MATCHING PARENTHESES SEARCH:
