@@ -74,9 +74,9 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### Count for motion:
->  Typing a number before a motion repeats it that many times.
-   Syntax: <NUMBER> <MOTION>
-   Ex: 2w -> moves the cursor two words forward.
+> Typing a number before a motion repeats it that many times.
+> Syntax: <NUMBER> <MOTION>
+> *Ex: 2w -> moves the cursor two words forward.*
 
 >  Typing a number with an operator repeats it that many times.
    Syntax: <OPERATOR> <NUMBER> <MOTION> 
@@ -94,10 +94,10 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### The REPLACE command:
-* r -> replace a character on the cursor.
-    * Ex: To change from late to tape
-        * Move the cursor so it is on top of l and type r followed by t
-        * Move the cursor so it is on top of t and type r followed by p
+> * r -> replace a character on the cursor.
+>   * Ex: To change from late to tape
+>       * Move the cursor so it is on top of l and type r followed by t
+>       * Move the cursor so it is on top of t and type r followed by p
 
 
 ### The CHANGE command:
