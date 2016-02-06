@@ -1,4 +1,4 @@
-# VIM Basics and Commands
+# VIM Basics and Command Reference
 
 ### VIM Modes:
 1. Normal
@@ -83,33 +83,29 @@ Command mode can perform complex editing functions, file actions, shell actions.
    Ex: d2w -> deletes two words forward
 
 
-The UNDO command:
------------------
-u 		-> to undo the last commands.
-U 		-> to fix the whole line.
-CTRL-R 	-> redo the comands.
+### The UNDO command:
+* u 		-> to undo the last commands.
+* U 		-> to fix the whole line.
+* CTRL-R 	-> redo the comands.
 
 
-The PUT command:
-----------------
-p -> to put the previously deleted command after the cursor
+### The PUT command:
+* p -> to put the previously deleted command after the cursor
 
 
-The REPLACE command:
---------------------
-r -> replace a character on the cursor.
+### The REPLACE command:
+>    r -> replace a character on the cursor.
      Ex: To change from late to tape
-         1) Move the cursor so it is on top of l and type r followed by t
-         2) Move the cursor so it is on top of t and type r followed by p
+         1. Move the cursor so it is on top of l and type r followed by t
+         2. Move the cursor so it is on top of t and type r followed by p
 
 
-The CHANGE command:
--------------------
-ce -> to change until the end of the word.
+### The CHANGE command:
+>     ce -> to change until the end of the word.
       Ex: To change from lawre to lane
-          1) Move the cursor so it is on top of w
-          2) type ce to delete the remaining word starting from w (wre)
-          3) then type ne to complete the word (lane)
+          1. Move the cursor so it is on top of w
+          2. type ce to delete the remaining word starting from w (wre)
+          3. then type ne to complete the word (lane)
 
 The change operator is used with same motions as delete.
 c$ -> changes until end of line.
