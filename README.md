@@ -136,10 +136,10 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### Visual block mode commands:
-c -> change selection
-I -> insert in front of cursor
-A -> append after cursor
-r -> replace every character in selection
-d -> delete selection
-o -> toggle cursor to opposite corner
+* c -> change selection
+* I -> insert in front of cursor
+* A -> append after cursor
+* r -> replace every character in selection
+* d -> delete selection
+* o -> toggle cursor to opposite corner
 
