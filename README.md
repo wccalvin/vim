@@ -94,10 +94,10 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### The REPLACE command:
->    r -> replace a character on the cursor.
-     Ex: To change from late to tape
-         1. Move the cursor so it is on top of l and type r followed by t
-         2. Move the cursor so it is on top of t and type r followed by p
+* r -> replace a character on the cursor.
+* Ex: To change from late to tape
+    * Move the cursor so it is on top of l and type r followed by t
+    * Move the cursor so it is on top of t and type r followed by p
 
 
 ### The CHANGE command:
