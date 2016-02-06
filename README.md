@@ -1,10 +1,10 @@
-##VIM Basics and Commands
+# VIM Basics and Commands
 
-####VIM Modes:
-+ Normal
-+ Insert
-+ Visual
-+ Command
+### VIM Modes:
+1. Normal
+2. Insert
+3. Visual
+4. Command
 
 **Normal**
 >When you start Vim, it is in Normal mode.
@@ -24,26 +24,25 @@ Visual mode allows to select a rectangular section of text and edit a block.
 Command mode can perform complex editing functions, file actions, shell actions.
 
 
-Moving the Cursor:
-------------------
-h      -> moves left
-l      -> moves right
-j      -> moves down
-k      -> moves up
-w      -> move cursor a word forward
-b      -> move cursor a word backward
-e      -> move cursor to end of the word
-ge     -> move back cursor to end of the word
-0      -> moves cursor to start of the line
-$      -> moves cursor to end of the line
-CTRL-f -> Go forward one page
-CTRL-b -> Go backward one page
-gf     -> Go to the file location given in the line.
+### Moving the Cursor:
+* h      -> moves left
+* l      -> moves right
+* j      -> moves down
+* k      -> moves up
+* w      -> move cursor a word forward
+* b      -> move cursor a word backward
+* e      -> move cursor to end of the word
+* ge     -> move back cursor to end of the word
+* 0      -> moves cursor to start of the line
+* $      -> moves cursor to end of the line
+* CTRL-f -> Go forward one page
+* CTRL-b -> Go backward one page
+* gf     -> Go to the file location given in the line.
           For example if ~/scripts/file.pl is in the line; gf on word will open
 	      that file for you.
 
 
-Exiting VIM:
+### Exiting VIM:
 ------------
 <ESC> key (to make sure you are in Normal mode>
 :q! -> exits the vim editor, DISCARDING any changes.
