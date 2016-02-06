@@ -43,47 +43,42 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### Exiting VIM:
-------------
-<ESC> key (to make sure you are in Normal mode>
-:q! -> exits the vim editor, DISCARDING any changes.
-:wq -> exits the vim editor, SAVING any changes.
-ZZ  -> Same as :q!
-ZQ  -> Same as :wq
+* <ESC> key (to make sure you are in Normal mode>
+* :q! -> exits the vim editor, DISCARDING any changes.
+* :wq -> exits the vim editor, SAVING any changes.
+* ZZ  -> Same as :q!
+* ZQ  -> Same as :wq
 
 
-Text Editing in Normal Mode:
-----------------------------
-x -> delete the character under the cursor.
-i -> insert text under the cursor (before the cursor).
-a -> append text after the current cursor position.
-A -> append text to the current line where the cursor is present.
-I -> insert text to the begining of the current line where the cursor is present.
-o -> Open a new line under the current line to add text.
-O -> Open a new line before the current line to insert text.
+### Text Editing in Normal Mode:
+* x -> delete the character under the cursor.
+* i -> insert text under the cursor (before the cursor).
+* a -> append text after the current cursor position.
+* A -> append text to the current line where the cursor is present.
+* I -> insert text to the begining of the current line where the cursor is present.
+* o -> Open a new line under the current line to add text.
+* O -> Open a new line before the current line to insert text.
 
 
-DELETION Commands:
-------------------
-dw -> to delete until the start of the next word. It also strips of spaces next to
+### DELETION Commands:
+* dw -> to delete until the start of the next word. It also strips of spaces next to
       the word. (make sure you are in normal mode; Press <ESC> to be sure.)
-d$ -> to delete to the end of file (make sure you are in normal mode; Press <ESC> to be sure.)
-d^ -> to delete to the begining of file
-de -> to delete to the end of the current word.
+* d$ -> to delete to the end of file (make sure you are in normal mode; Press <ESC> to be sure.)
+* d^ -> to delete to the begining of file
+* de -> to delete to the end of the current word.
 
 
-Line Operations:
-----------------
-dd  -> to delete a whole line.
-2dd -> to delete 2 consequetive lines.
+### Line Operations:
+* dd  -> to delete a whole line.
+* 2dd -> to delete 2 consequetive lines.
 
 
-Count for motion:
------------------
-1) Typing a number before a motion repeats it that many times.
+### Count for motion:
+>  Typing a number before a motion repeats it that many times.
    Syntax: <NUMBER> <MOTION>
    Ex: 2w -> moves the cursor two words forward.
 
-2) Typing a number with an operator repeats it that many times.
+>  Typing a number with an operator repeats it that many times.
    Syntax: <OPERATOR> <NUMBER> <MOTION> 
    Ex: d2w -> deletes two words forward
 
