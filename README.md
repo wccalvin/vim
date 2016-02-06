@@ -1,10 +1,10 @@
 # VIM Basics and Command Reference
 
 ### VIM Modes:
-1. Normal
-2. Insert
-3. Visual
-4. Command
+> 1. Normal
+> 2. Insert
+> 3. Visual
+> 4. Command
 
 **Normal**
 >>When you start Vim, it is in Normal mode.
@@ -25,52 +25,52 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### Moving the Cursor:
-* h      -> moves left
-* l      -> moves right
-* j      -> moves down
-* k      -> moves up
-* w      -> move cursor a word forward
-* b      -> move cursor a word backward
-* e      -> move cursor to end of the word
-* ge     -> move back cursor to end of the word
-* 0      -> moves cursor to start of the line
-* $      -> moves cursor to end of the line
-* CTRL-f -> Go forward one page
-* CTRL-b -> Go backward one page
-* gf     -> Go to the file location given in the line.
+> * h      -> moves left
+> * l      -> moves right
+> * j      -> moves down
+> * k      -> moves up
+> * w      -> move cursor a word forward
+> * b      -> move cursor a word backward
+> * e      -> move cursor to end of the word
+> * ge     -> move back cursor to end of the word
+> * 0      -> moves cursor to start of the line
+> * $      -> moves cursor to end of the line
+> * CTRL-f -> Go forward one page
+> * CTRL-b -> Go backward one page
+> * gf     -> Go to the file location given in the line.
           For example if ~/scripts/file.pl is in the line; gf on word will open
 	      that file for you.
 
 
 ### Exiting VIM:
-* <ESC> key (to make sure you are in Normal mode>
-* :q! -> exits the vim editor, DISCARDING any changes.
-* :wq -> exits the vim editor, SAVING any changes.
-* ZZ  -> Same as :q!
-* ZQ  -> Same as :wq
+> * <ESC> key (to make sure you are in Normal mode>
+> * :q! -> exits the vim editor, DISCARDING any changes.
+> * :wq -> exits the vim editor, SAVING any changes.
+> * ZZ  -> Same as :q!
+> * ZQ  -> Same as :wq
 
 
 ### Text Editing in Normal Mode:
-* x -> delete the character under the cursor.
-* i -> insert text under the cursor (before the cursor).
-* a -> append text after the current cursor position.
-* A -> append text to the current line where the cursor is present.
-* I -> insert text to the begining of the current line where the cursor is present.
-* o -> Open a new line under the current line to add text.
-* O -> Open a new line before the current line to insert text.
+> * x -> delete the character under the cursor.
+> * i -> insert text under the cursor (before the cursor).
+> * a -> append text after the current cursor position.
+> * A -> append text to the current line where the cursor is present.
+> * I -> insert text to the begining of the current line where the cursor is present.
+> * o -> Open a new line under the current line to add text.
+> * O -> Open a new line before the current line to insert text.
 
 
 ### DELETION Commands:
-* dw -> to delete until the start of the next word. It also strips of spaces next to
+> * dw -> to delete until the start of the next word. It also strips of spaces next to
       the word. (make sure you are in normal mode; Press <ESC> to be sure.)
-* d$ -> to delete to the end of file (make sure you are in normal mode; Press <ESC> to be sure.)
-* d^ -> to delete to the begining of file
-* de -> to delete to the end of the current word.
+> * d$ -> to delete to the end of file (make sure you are in normal mode; Press <ESC> to be sure.)
+> * d^ -> to delete to the begining of file
+> * de -> to delete to the end of the current word.
 
 
 ### Line Operations:
-* dd  -> to delete a whole line.
-* 2dd -> to delete 2 consequetive lines.
+> * dd  -> to delete a whole line.
+> * 2dd -> to delete 2 consequetive lines.
 
 
 ### Count for motion:
@@ -84,9 +84,9 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### The UNDO command:
-* u 		-> to undo the last commands.
-* U 		-> to fix the whole line.
-* CTRL-R 	-> redo the comands.
+> * u 		-> to undo the last commands.
+> * U 		-> to fix the whole line.
+> * CTRL-R 	-> redo the comands.
 
 
 ### The PUT command:
