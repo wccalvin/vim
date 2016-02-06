@@ -107,9 +107,9 @@ Command mode can perform complex editing functions, file actions, shell actions.
         * type ce to delete the remaining word starting from w (wre)
         * then type ne to complete the word (lane)
 
-*The change operator is used with same motions as delete.*
-- *c$ -> changes until end of line.*
-- *c2w ->changes two words.*
+> *The change operator is used with same motions as delete.*
+> - *c$ -> changes until end of line.*
+> - *c2w ->changes two words.*
 
 
 Cursor location and file status:
