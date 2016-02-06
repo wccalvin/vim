@@ -120,12 +120,12 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### The SEARCH command:
-**In normal mode,i**
+**In normal mode:**
 - type the / character and search phrase for searching in forward direction.
 - type the ? character and search phrase for searching in backward direction.
-- to search the same phrase again, simple type:
-> - n -> for searching again.
-> - N -> for searching in opposite direction.
+> to search the same phrase again, simple type:
+>* n -> for searching again.
+>* N -> for searching in opposite direction.
 
 
 MATCHING PARENTHESES SEARCH:
