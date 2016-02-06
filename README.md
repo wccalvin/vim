@@ -135,11 +135,11 @@ Command mode can perform complex editing functions, file actions, shell actions.
 > * type % again to move to the other matching bracket.
 
 
-### Visual block mode commands:
-* c -> change selection
-* I -> insert in front of cursor
-* A -> append after cursor
-* r -> replace every character in selection
-* d -> delete selection
-* o -> toggle cursor to opposite corner
+### VISUAL BLOCK MODE Commands:
+> * c -> change selection
+> * I -> insert in front of cursor
+> * A -> append after cursor
+> * r -> replace every character in selection
+> * d -> delete selection
+> * o -> toggle cursor to opposite corner
 
