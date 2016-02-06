@@ -24,7 +24,7 @@ Visual mode allows to select a rectangular section of text and edit a block.
 Command mode can perform complex editing functions, file actions, shell actions.
 
 
-### Moving the Cursor:
+### Moving the CURSOR:
 > * h      -> moves left
 > * l      -> moves right
 > * j      -> moves down
@@ -68,19 +68,18 @@ Command mode can perform complex editing functions, file actions, shell actions.
 > * de -> to delete to the end of the current word.
 
 
-### Line Operations:
+### LINE Operations:
 > * dd  -> to delete a whole line.
 > * 2dd -> to delete 2 consequetive lines.
 
 
 ### Count for motion:
 > Typing a number before a motion repeats it that many times.
-> Syntax: <NUMBER> <MOTION>
-> *Ex: 2w -> moves the cursor two words forward.*
-
->  Typing a number with an operator repeats it that many times.
-   Syntax: <OPERATOR> <NUMBER> <MOTION> 
-   Ex: d2w -> deletes two words forward
+> * Syntax: <NUMBER> <MOTION>
+>   - *Ex: 2w -> moves the cursor two words forward.*
+> Typing a number with an operator repeats it that many times.
+> * Syntax: <OPERATOR> <NUMBER> <MOTION> 
+>   - *Ex: d2w -> deletes two words forward*
 
 
 ### The UNDO command:
