@@ -90,7 +90,7 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### The PUT command:
-* p -> to put the previously deleted command after the cursor
+> * p -> to put the previously deleted command after the cursor
 
 
 ### The REPLACE command:
@@ -101,11 +101,11 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### The CHANGE command:
-* ce -> to change until the end of the word.
-    * Ex: To change from lawre to lane
-        * Move the cursor so it is on top of w
-        * type ce to delete the remaining word starting from w (wre)
-        * then type ne to complete the word (lane)
+> * ce -> to change until the end of the word.
+>   * Ex: To change from lawre to lane
+>       * Move the cursor so it is on top of w
+>       * type ce to delete the remaining word starting from w (wre)
+>       * then type ne to complete the word (lane)
 
 > *The change operator is used with same motions as delete.*
 > - *c$ -> changes until end of line.*
@@ -113,10 +113,10 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### Cursor location and file status:
-* CTRL-g -> A message will appear at the bottom of the page with the file name
+> * CTRL-g -> A message will appear at the bottom of the page with the file name
           and position of the file.
-* G      -> to move to the bottom of the file.
-* gg     -> to move to the start of the file.
+> * G      -> to move to the bottom of the file.
+> * gg     -> to move to the start of the file.
 
 
 ### The SEARCH command:
