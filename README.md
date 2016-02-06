@@ -128,16 +128,14 @@ Command mode can perform complex editing functions, file actions, shell actions.
     - N -> for searching in opposite direction.
 
 
-MATCHING PARENTHESES SEARCH:
-----------------------------
-Type % to find a matching ), ], or }
-1) This is very useful for debugging a program with unmatched parentheses.
-2) Place the cursor on any (, [ or { and type % character.
-3) type % again to move to the other matching bracket.
+### MATCHING PARENTHESES SEARCH:
+> *Type % to find a matching ), ], or }*
+> * This is very useful for debugging a program with unmatched parentheses.
+> * Place the cursor on any (, [ or { and type % character.
+> * type % again to move to the other matching bracket.
 
 
-Visual block mode commands:
----------------------------
+### Visual block mode commands:
 c -> change selection
 I -> insert in front of cursor
 A -> append after cursor
