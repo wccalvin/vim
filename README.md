@@ -95,17 +95,17 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 ### The REPLACE command:
 * r -> replace a character on the cursor.
-* Ex: To change from late to tape
-    * Move the cursor so it is on top of l and type r followed by t
-    * Move the cursor so it is on top of t and type r followed by p
+    * Ex: To change from late to tape
+        * Move the cursor so it is on top of l and type r followed by t
+        * Move the cursor so it is on top of t and type r followed by p
 
 
 ### The CHANGE command:
->     ce -> to change until the end of the word.
-      Ex: To change from lawre to lane
-          1. Move the cursor so it is on top of w
-          2. type ce to delete the remaining word starting from w (wre)
-          3. then type ne to complete the word (lane)
+* ce -> to change until the end of the word.
+    * Ex: To change from lawre to lane
+        * Move the cursor so it is on top of w
+        * type ce to delete the remaining word starting from w (wre)
+        * then type ne to complete the word (lane)
 
 The change operator is used with same motions as delete.
 c$ -> changes until end of line.
