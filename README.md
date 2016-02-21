@@ -111,14 +111,15 @@ Typing a number with an operator repeats it that many times.
 - *c2w ->changes two words.*
 
 
-### Cursor location and file status:
+### CURSOR LOCATION AND FILE STATUS
 * CTRL-g -> A message will appear at the bottom of the page with the file name
-         and position of the file.
+            and position of the file.
 * G      -> to move to the bottom of the file.
+* 10G    -> to move to the 10th line of the file.
 * gg     -> to move to the start of the file.
 
 
-### The SEARCH command:
+### THE SEARCH COMMAND:
 **In normal mode:**
 - type the / character and search phrase for searching in forward direction.
 - type the ? character and search phrase for searching in backward direction.
