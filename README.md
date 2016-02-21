@@ -1,6 +1,6 @@
 # VIM Basics and Command Reference
 
-### VIM Modes:
+### VIM MODES:
 1. Normal
 2. Insert
 3. Visual
@@ -24,7 +24,7 @@ Visual mode allows to select a rectangular section of text and edit a block.
 Command mode can perform complex editing functions, file actions, shell actions.
 
 
-### Moving the CURSOR:
+### MOVING THE CURSOR:
 * h      -> moves left
 * l      -> moves right
 * j      -> moves down
@@ -42,7 +42,7 @@ Command mode can perform complex editing functions, file actions, shell actions.
 	      that file for you.
 
 
-### Exiting VIM:
+### EXITING VIM:
 * <ESC> key (to make sure you are in Normal mode>
 * :q! -> exits the vim editor, DISCARDING any changes.
 * :wq -> exits the vim editor, SAVING any changes.
@@ -50,7 +50,7 @@ Command mode can perform complex editing functions, file actions, shell actions.
 * ZQ  -> Same as :wq
 
 
-### Text Editing in Normal Mode:
+### TEXT EDITING IN NORMAL MODE:
 * x -> delete the character under the cursor.
 * i -> insert text under the cursor (before the cursor).
 * a -> append text after the current cursor position.
@@ -60,7 +60,7 @@ Command mode can perform complex editing functions, file actions, shell actions.
 * O -> Open a new line before the current line to insert text.
 
 
-### DELETION Commands:
+### DELETION COMMANDS:
 * dw -> to delete until the start of the next word. It also strips of spaces next to
      the word. (make sure you are in normal mode; Press <ESC> to be sure.)
 * d$ -> to delete to the end of file (make sure you are in normal mode; Press <ESC> to be sure.)
@@ -68,12 +68,12 @@ Command mode can perform complex editing functions, file actions, shell actions.
 * de -> to delete to the end of the current word.
 
 
-### LINE Operations:
+### LINE OPERATIONS:
 * dd  -> to delete a whole line.
 * 2dd -> to delete 2 consequetive lines.
 
 
-### Count for motion:
+### COUNT FOR MOTION:
 Typing a number before a motion repeats it that many times.
 * Syntax: <NUMBER> <MOTION>
   - *Ex: 2w -> moves the cursor two words forward.*
@@ -82,24 +82,24 @@ Typing a number with an operator repeats it that many times.
   - *Ex: d2w -> deletes two words forward*
 
 
-### The UNDO command:
+### THE UNDO COMMAND:
 * u 		-> to undo the last commands.
 * U 		-> to fix the whole line.
 * CTRL-R 	-> redo the comands.
 
 
-### The PUT command:
+### THE PUT COMMAND:
 * p -> to put the previously deleted command after the cursor
 
 
-### The REPLACE command:
+### THE REPLACE COMMAND:
 * r -> replace a character on the cursor.
   * Ex: To change from late to tape
       * Move the cursor so it is on top of l and type r followed by t
       * Move the cursor so it is on top of t and type r followed by p
 
 
-### The CHANGE command:
+### THE CHANGE COMMAND:
 * ce -> to change until the end of the word.
   * Ex: To change from lawre to lane
       * Move the cursor so it is on top of w
