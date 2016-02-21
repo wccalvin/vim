@@ -134,6 +134,14 @@ Typing a number with an operator repeats it that many times.
 * type % again to move to the other matching bracket.
 
 
+### CHANGE/DELETE/COPY INSIDE PAREN/QUOTES
+**In normal mode:**
+- type ci( or ci) for changing inside paren -- ()
+- type di( or di) for deleting inside paren -- ()
+- type yi( or yi) for copying inside paren -- ()
+**Same logic for ', ", [, {**
+
+
 ### VISUAL BLOCK MODE Commands:
 * c -> change selection
 * I -> insert in front of cursor
@@ -141,4 +149,3 @@ Typing a number with an operator repeats it that many times.
 * r -> replace every character in selection
 * d -> delete selection
 * o -> toggle cursor to opposite corner
-
