@@ -134,7 +134,17 @@ Typing a number with an operator repeats it that many times.
 * type % again to move to the other matching bracket.
 
 
-### CHANGE/DELETE/COPY INSIDE PAREN/QUOTES
+### THE SUBSTITUTE COMMAND:
+*Syntax: :s/old/new/g*
+Examples:
+> :s/this/the       [Replaces the first occurence of 'this' to 'the'] 
+> :s/this/the/g     [Replaces all the occurences of 'this' to 'the' the line]
+> :#,#s/this/the/g  [Replaces all the occurences of 'this' to 'the' in the given range(#)]
+> :%s/this/the/g    [Replaces all the occurences of 'this' to 'the' in the file]
+> :%s/this/the/gc   [Replaces all the occurences of 'this' to 'the' in the file with a prompt]
+
+
+### CHANGE/DELETE/COPY INSIDE PAREN/QUOTES:
 **In normal mode:**
 - type ci( or ci) for changing inside paren -- ()
 - type di( or di) for deleting inside paren -- ()
