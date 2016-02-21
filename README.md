@@ -139,7 +139,8 @@ Typing a number with an operator repeats it that many times.
 - type ci( or ci) for changing inside paren -- ()
 - type di( or di) for deleting inside paren -- ()
 - type yi( or yi) for copying inside paren -- ()
-**Same logic for ', ", [, {**
+
+*Same logic for ', ", [, {*
 
 
 ### VISUAL BLOCK MODE Commands:
