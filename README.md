@@ -135,7 +135,8 @@ Typing a number with an operator repeats it that many times.
 
 
 ### THE SUBSTITUTE COMMAND:
-*Syntax: :s/old/new/g*
+*Syntax:* **:s/old/new/g**
+
 Examples:
 - :s/this/the       [Replaces the first occurence of 'this' to 'the'] 
 - :s/this/the/g     [Replaces all the occurences of 'this' to 'the' the line]
