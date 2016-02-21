@@ -107,8 +107,8 @@ Typing a number with an operator repeats it that many times.
       * then type ne to complete the word (lane)
 
 *The change operator is used with same motions as delete.*
-- *c$ -> changes until end of line.*
-- *c2w ->changes two words.*
+- *c$  -> changes until end of line.*
+- *c2w -> changes two words.*
 
 
 ### CURSOR LOCATION AND FILE STATUS
