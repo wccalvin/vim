@@ -153,6 +153,10 @@ Examples:
 *Same logic for ', ", [, {*
 
 
+### EXECUTE EXTERNAL COMMAND:
+*Syntax: :!<CMD>*
+
+
 ### VISUAL BLOCK MODE Commands:
 * c -> change selection
 * I -> insert in front of cursor
