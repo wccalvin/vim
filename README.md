@@ -154,7 +154,7 @@ Examples:
 
 
 ### EXECUTE EXTERNAL COMMAND:
-*Syntax: :!<CMD>*
+*Syntax: :!\<COMMAND\>*
 
 
 ### VISUAL BLOCK MODE Commands:
