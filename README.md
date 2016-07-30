@@ -43,7 +43,7 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ### EXITING VIM:
-* <ESC> key (to make sure you are in Normal mode>
+* <ESC> or Ctrl+[ key (to make sure you are in Normal mode>
 * :q! -> exits the vim editor, DISCARDING any changes.
 * :wq -> exits the vim editor, SAVING any changes.
 * ZZ  -> Same as :q!
@@ -53,11 +53,14 @@ Command mode can perform complex editing functions, file actions, shell actions.
 ### TEXT EDITING IN NORMAL MODE:
 * x -> delete the character under the cursor.
 * i -> insert text under the cursor (before the cursor).
+* s -> delete character under cursor and start insert mode.
+* S -> delete line and begin insert line in the same line.
 * a -> append text after the current cursor position.
 * A -> append text to the current line where the cursor is present.
 * I -> insert text to the begining of the current line where the cursor is present.
-* o -> Open a new line under the current line to add text.
-* O -> Open a new line before the current line to insert text.
+* o -> open a new line under the current line to add text.
+* O -> open a new line before the current line to insert text.
+* C -> delete from cursor to the end of the line and begin insert.
 
 
 ### DELETION COMMANDS:
