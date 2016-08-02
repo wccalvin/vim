@@ -8,29 +8,29 @@ VIM Basics and Command Reference
 4. Command
 
 **Normal**
->When you start Vim, it is in Normal mode.
+When you start Vim, it is in Normal mode.
 This mode is used to navigate around the file.
 
 **Insert**
->Vim is in Insert mode with the use of a, A, i, I, o and O commands from Normal mode. 
+Vim is in Insert mode with the use of a, A, i, I, o and O commands from Normal mode. 
 Every key pressed is directly inserted into the file.
 Press ESC to exit Insert mode.
 
 **Visual**
->Visual mode is triggered with the use of v, V and Ctrl-v commands from Normal mode.
+Visual mode is triggered with the use of v, V and Ctrl-v commands from Normal mode.
 Visual mode allows to select a rectangular section of text and edit a block.
 
 **Command**
->: command in Normal mode navigates to Command mode. 
+:command in Normal mode navigates to Command mode. 
 Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ## MOVING THE CURSOR:
 
-		^		h - moves left
-		k		l - moves right
-	<h		l>	j - moves down
-		j		k - moves up
+		^			h - moves left
+		k			l - moves right
+	<h		l>		j - moves down
+		j			k - moves up
 		v
 
 
