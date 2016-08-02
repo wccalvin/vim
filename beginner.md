@@ -48,7 +48,7 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 
 ## EXITING VIM:
-* <ESC> or Ctrl+[ key (to make sure you are in Normal mode>
+* \<ESC\> or Ctrl+[ key (to make sure you are in Normal mode>
 * :q! -- exits the vim editor, DISCARDING any changes.
 * :wq -- exits the vim editor, SAVING any changes.
 * ZZ  -- Same as :q!
