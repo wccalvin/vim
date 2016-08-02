@@ -1,8 +1,7 @@
 VIM Basics and Command Reference
 ===
 
-VIM MODES:
-===
+## VIM MODES:
 1. Normal
 2. Insert
 3. Visual
@@ -26,11 +25,20 @@ Visual mode allows to select a rectangular section of text and edit a block.
 Command mode can perform complex editing functions, file actions, shell actions.
 
 
-### MOVING THE CURSOR:
-* h      -> moves left
-* l      -> moves right
-* j      -> moves down
-* k      -> moves up
+## MOVING THE CURSOR:
+
+		^
+		k
+	<h		l>
+		j
+		v
+
+
+h - moves left
+l - moves right
+j - moves down
+k - moves up
+
 * w      -> move cursor a word forward
 * b      -> move cursor a word backward
 * e      -> move cursor to end of the word
