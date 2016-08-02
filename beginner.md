@@ -27,17 +27,12 @@ Command mode can perform complex editing functions, file actions, shell actions.
 
 ## MOVING THE CURSOR:
 
-		^
-		k
-	<h		l>
-		j
+		^		h - moves left
+		k		l - moves right
+	<h		l>	j - moves down
+		j		k - moves up
 		v
 
-
-h - moves left
-l - moves right
-j - moves down
-k - moves up
 
 * w      -> move cursor a word forward
 * b      -> move cursor a word backward
