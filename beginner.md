@@ -1,6 +1,8 @@
-# VIM Basics and Command Reference
+VIM Basics and Command Reference
+===
 
-### VIM MODES:
+VIM MODES:
+===
 1. Normal
 2. Insert
 3. Visual
